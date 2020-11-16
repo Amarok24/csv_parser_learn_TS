@@ -1,5 +1,5 @@
 # csv_parser_learn_TS
-CSV parser demo. OOP learning project in TypeScript, different paradigms.
+CSV parser demo. OOP learning project in TypeScript, different design patterns.
 
 This code uses TypeScript and Deno for reading and writing files:
 
