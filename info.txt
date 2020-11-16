@@ -1,0 +1,16 @@
+------------------
+
+running DENO instead of Node
+
+In DENO all imports need to have a valid filename with extension (like in vanilla JS), for example:
+import { Sorter } from "./Sorter.ts";
+
+DIRECTLY RUN A .TS FILE
+deno run --no-check src/index.ts
+
+FROM DENO DOCS:
+When using deno run, deno test, deno cache, or deno bundle you can specify the --no-check flag to disable TypeScript type checking. This can significantly reduce the time that program startup takes. This can be very useful when type checking is provided by your editor and you want startup time to be as fast as possible
+
+
+using tsconfig.json for Deno
+deno run --no-check -c tsconfig.json src/index.ts
