@@ -8,6 +8,9 @@ https://deno.land/
 (but can be easily rewritten for NodeJS)
 Therefore the code won't run in a browser because it needs full file access.
 
+### How to run:
+Make sure you have Deno and BASH (or compatible shell) installed, then run the `run.sh` shell script.
+
 ---
 
 This learning project is part of a Udemy course:
